@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.madproject">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:usesCleartextTraffic="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Madproject">
+        <activity android:name=".Gamettt"></activity>
+        <activity android:name=".Playersetupttt" />
+        <activity android:name=".tictactoe" />
+        <activity
+            android:name=".fly_high_action"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".fly_high"
+            android:screenOrientation="landscape" />
+        <activity android:name=".MainActivity6" />
+        <activity android:name=".loginPage" />
+        <activity android:name=".signupPage" />
+        <activity android:name=".ShopActivity" />
+        <activity android:name=".Resultofvermiculi" />
+        <activity android:name=".MainActivity5" />
+        <activity android:name=".MainActivity4" />
+        <activity android:name=".MainActivity3" />
+        <activity android:name=".MainActivity2" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

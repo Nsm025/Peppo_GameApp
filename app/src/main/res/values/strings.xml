@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Madproject</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="fullname">Fullname</string>
+    <string name="about">ABOUT</string>
+    <string name="aboutus">PEPPO is a app developed in the year 2021 by Nehana SM and Bhavana S.
+    This app basically contains 3 Games, each game of various genre. Main intension of this app is to
+    find different kinds of games inside one frame, so that when user gets bored of one game,
+    he/she can play the other. To keep this more interesting we have locked the last game called "Angry Poacher"
+        and this game can be unlocked only if the score of corona game is more than 150.
+        Description of each game can be found below. Just go through the guidelines once before entering
+        into the game. Thank you for using this application!!</string>
+    <string name="one">ANGRY POACHER</string>
+    <string name="two"> Here player will be on  FLIGHT and the angry birds try to attack him.
+        In order to defend the player, you hav to shoot the birds.
+        If in case the birds touch the flight or it approaches towards the player, he dies and GAMEOVER!!</string>
+    <string name="three">TIC TAC TOE</string>
+    <string name="four">Here there will be two players in which player1 will have a marker X and player2 will
+    have marker O. Each one will be given alternative chance to place their marker in a 3x3 grid board.
+    The one who achieves to place their marker in horizontal or vertical or diagonal order wins the game
+    and will be declared as WINNER!! If both the players fail to do so then it will be TIE MATCH!!</string>
+    <string name="five">CORONA</string>
+    <string name="six">Here the player has to defend himself from the virus and has to survive.
+             He will have to gain the point by grabing food and diamond.
+        By grabing food he will be awarded with 1 points and by grabing diamond his point increases by 3.
+       If the player is attacked by virus, he will die and  GAMEOVER!!</string>
+    <string name="loginhere">Already have an account? <u>Login</u> </string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="login">LOGIN</string>
+    <string name="signuphere">Dont have an account? <u>SignUp</u></string>
+    <string name="signup">SignUp</string>
+    <string name="tictactoe">Tic Tac Toe</string>
+    <string name="play">Play</string>
+</resources>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6F6FE8"
+    tools:context=".MainActivity6">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="306dp"
+        android:layout_height="71dp"
+        android:layout_marginTop="56dp"
+        android:gravity="center_horizontal"
+        android:text="WELCOME!!"
+        android:textAlignment="center"
+        android:textColor="#AF0341"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/constraintLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout2"
+        android:layout_width="409dp"
+        android:layout_height="232dp"
+        android:layout_marginBottom="328dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageButton
+            android:id="@+id/corona"
+            android:layout_width="200dp"
+            android:layout_height="220dp"
+            android:onClick="play2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/tic"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/pickme" />
+
+        <ImageButton
+            android:id="@+id/tic"
+            android:layout_width="200dp"
+            android:layout_height="220dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="4dp"
+            android:onClick="play1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/pickme" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <ImageButton
+        android:id="@+id/shooter"
+        android:layout_width="200dp"
+        android:layout_height="216dp"
+
+        android:layout_marginBottom="76dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout2"
+        app:srcCompat="@drawable/pickme" />
+
+    <RelativeLayout
+        android:id="@+id/unlock"
+        android:layout_width="200dp"
+        android:layout_height="216dp"
+        android:background="#c26c6b6b"
+        app:layout_constraintBottom_toBottomOf="@+id/shooter"
+        app:layout_constraintEnd_toEndOf="@+id/shooter"
+        app:layout_constraintStart_toStartOf="@+id/shooter"
+        app:layout_constraintTop_toTopOf="@+id/shooter">
+
+        <TextView
+            android:id="@+id/locktext"
+            android:layout_width="195dp"
+            android:layout_height="51dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:gravity="center_horizontal"
+            android:text="LOCKED"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="28dp"
+            tools:layout_editor_absoluteX="109dp"
+            tools:layout_editor_absoluteY="421dp" />
+
+        <TextView
+            android:id="@+id/fivegames"
+            android:layout_width="117dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="13dp"
+            android:gravity="center_horizontal"
+            android:text="Score: 150"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="113dp"
+            tools:layout_editor_absoluteY="590dp" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="154dp"
+        android:layout_height="61dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/red_button"
+        android:onClick="exit"
+        android:text="Sign Out"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:backgroundTint="#FF8A65"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
